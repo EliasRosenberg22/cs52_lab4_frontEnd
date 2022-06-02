@@ -1,0 +1,161 @@
+html {
+  color: rgb(63, 121, 175);
+  display: flex;
+  justify-content: center;
+  font-family: "Prata", sans-serif;
+  background-image: url('background4.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+
+.posts{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+
+p, h1, h2, h3, ul{ 
+  color: rgb(37, 37, 37);
+  font-family: "Roboto", sans-serif;
+}
+
+#main{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.formBody{
+  display: flex;
+  flex-direction: column;
+  margin: 5vw;
+  
+}
+
+.postImage{
+  width: 25vw;
+  height: 22vw;
+}
+
+.individualPost{
+  background-color: rgb(255, 255, 255);
+  border-style: outset;
+  border-color: rgb(53, 53, 53); 
+  width: 25vw;
+  height: 35vw;
+  border-radius: 1vw;
+  margin: 3vw;
+  box-shadow: 6px 6px 6px rgba(0, 0, 0, 0.25);
+}
+
+.actualPage{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+input{
+  margin: 2vw;
+  width: 40vw;
+  height: 2vw;
+}
+
+textarea{
+  margin-left: 2.2vw;
+  width: 40vw
+  
+}
+
+  .active {
+    color: rgb(36, 36, 36);
+    transition: all 0.3s ease 0s;
+  }
+
+  .active:hover{
+    transform: scale(1.1);
+    color: white
+  }
+  
+  nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+
+  ul{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  li{
+    justify-content: center;
+    align-items: center;
+    margin-top: 1vw;
+    margin-left: 2vw;
+    margin-right: 2vw;
+    font-size: 1.4vw;
+  }
+
+
+  .posts{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .routeButtons{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+  }
+
+  .addNewPost{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  .icon{
+    transition: all 0.3s ease 0s;
+  }
+  
+  .icon:hover{
+    transform: scale(1.2)
+  }
+
+
+  .postSubmit{
+    width:  14vw; 
+    background-color: rgb(255, 255, 255);
+    border-radius: .4vw;
+    border-color: black;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.40);
+    font-size: 1vw;
+    transition: all 0.3s ease 0s;
+  }
+  
+  .postNav{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+  }
+
+  .postSubmit:hover{
+    transform: scale(1.1);
+    background-color: rgb(177, 177, 177);
+    color: white
+  
+  }
+
+  .postSubmit:active{
+    background-color: rgb(72, 72, 72);
+  }
